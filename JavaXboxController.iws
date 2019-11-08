@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06c86faa-c804-4dca-8397-c5d4623cf55d" name="Default Changelist" comment="" />
+    <list default="true" id="06c86faa-c804-4dca-8397-c5d4623cf55d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaXboxController.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/JavaXboxController.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaXboxController.iws" beforeDir="false" afterPath="$PROJECT_DIR$/JavaXboxController.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinput-2.0.9.jar!/net/java/games/jinput-dx8_64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jinput-2.0.9-natives.jar/net/java/games/jinput-dx8_64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinput-2.0.9.jar!/net/java/games/jinput-raw_64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jinput-2.0.9-natives.jar/net/java/games/jinput-raw_64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinput-2.0.9.jar!/net/java/games/jinput-wintab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jinput-2.0.9-natives.jar/net/java/games/jinput-wintab.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinput-2.0.9.jar!/net/java/games/libjinput-linux64.so" beforeDir="false" afterPath="$PROJECT_DIR$/jinput-2.0.9-natives.jar/net/java/games/libjinput-linux64.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinput-2.0.9.jar!/net/java/games/libjinput-osx.jnilib" beforeDir="false" afterPath="$PROJECT_DIR$/jinput-2.0.9-natives.jar/net/java/games/libjinput-osx.jnilib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaXboxController/JXbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaXboxController/JXbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JXbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JXBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xbox buttons.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/xbox buttons.xlsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,9 @@
   </component>
   <component name="ProjectId" id="1TCqvaBMFMbDUa8iKSncAAINvf5" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaXboxController.ipr" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15527344" />
@@ -48,8 +63,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="JXbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JXbox" />
+    <configuration name="JXBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JXBox" />
       <module name="JavaXboxController" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JXbox" />
+        <item itemvalue="Application.JXBox" />
       </list>
     </recent_temporary>
   </component>
@@ -71,15 +86,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572974656350</updated>
+      <workItem from="1573246789094" duration="84000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

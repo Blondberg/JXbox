@@ -1,1 +1,1 @@
-# JXbox
+# JXBox
