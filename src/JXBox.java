@@ -2,13 +2,16 @@ import net.java.games.input.*;
 
 import java.io.File;
 
-public class JXBox {
+public class JXBox extends Thread {
     private Controller xBoxController;
     private Controller[] controllers;
 
+    private GUI gui;
+
     private boolean controllerFound;
 
-    public JXBox() {
+    public JXBox(GUI gui) {
+        this.gui = gui;
         System.setProperty("net.java.games.input.librarypath",
                 new File("jinput-2.0.9-natives.jar\\net\\java\\games").getAbsolutePath());
         xBoxController = null;
@@ -38,6 +41,7 @@ public class JXBox {
     /**
      * Runs the controller checker
      */
+    @Override
     public void run() {
         boolean left = false;
         boolean right = false;
@@ -48,8 +52,6 @@ public class JXBox {
             System.out.println("No controller found... Try plugging it in and restarting the program!");
         } else {
             while (true) {
-
-
                 if (!xBoxController.poll()) {
                     System.out.println("Oh oooh, looks like your controller is no longer connected.");
                     System.out.println("Connect the controller and restart the program.");
@@ -97,11 +99,4 @@ public class JXBox {
             }
         }
     }
-
-    public static void main(String[] args) {
-        JXBox jx = new JXBox();
-        jx.run();
-    }
-
-
 }
