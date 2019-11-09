@@ -132,7 +132,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaXboxController.iml" filepath="$PROJECT_DIR$/JavaXboxController.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11.0.3" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
@@ -144,6 +144,14 @@
         <root url="jar://$PROJECT_DIR$/jinput-2.0.9.jar!/" />
       </CLASSES>
       <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="jinput-2.0.9-natives">
+      <CLASSES />
+      <JAVADOC />
+      <NATIVE>
+        <root url="file://$PROJECT_DIR$/jinput-2.0.9-natives.jar" />
+      </NATIVE>
       <SOURCES />
     </library>
     <library name="jinput-2.0.9-natives-all">

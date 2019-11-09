@@ -17,4 +17,8 @@ public class ControllerListener extends KeyAdapter {
     public void keyReleased(KeyEvent e) {
         super.keyReleased(e);
     }
+
+    public void controllerPressed(){
+
+    }
 }

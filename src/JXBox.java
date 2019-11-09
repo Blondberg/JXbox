@@ -1,5 +1,8 @@
 import net.java.games.input.*;
 
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.File;
 
 public class JXBox extends Thread {
@@ -55,6 +58,7 @@ public class JXBox extends Thread {
                 if (!xBoxController.poll()) {
                     System.out.println("Oh oooh, looks like your controller is no longer connected.");
                     System.out.println("Connect the controller and restart the program.");
+                    break;
                 }
 
                 EventQueue queue = xBoxController.getEventQueue();
@@ -99,4 +103,5 @@ public class JXBox extends Thread {
             }
         }
     }
+
 }
