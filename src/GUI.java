@@ -10,12 +10,16 @@ public class GUI extends JFrame {
     public void run(){
         controller = new JXBox(this);
         setSize(640, 480);
-        addKeyListener(new ControllerListener(this));
+        ControllerButton button = new ControllerButton();
+        button.addControllerListener(new ControllerListener(){
+            @Override public void buttonPressed(final ControllerEvent event) {
+                System.out.println("hej");
+            }
+        });
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        getKeyListeners()[0].keyPressed(new KeyEvent());
         setVisible(true);
 
-        controller.run();
+        controller.start();
     }
 
     public static void main(String[] args) {

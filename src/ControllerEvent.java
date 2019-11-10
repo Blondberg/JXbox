@@ -1,8 +1,8 @@
-import java.awt.*;
-import java.awt.event.KeyEvent;
+import java.util.EventObject;
 
-public class ControllerEvent extends KeyEvent {
-    public ControllerEvent(Component source, int id, long when, int modifiers, int keyCode, char keyChar, int keyLocation) {
-        super(source, id, when, modifiers, keyCode, keyChar, keyLocation);
+public class ControllerEvent extends EventObject
+{
+    public ControllerEvent(Object source){
+        super(source);
     }
 }

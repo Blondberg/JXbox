@@ -1,22 +1,19 @@
 import net.java.games.input.*;
 
-import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.File;
 
-public class JXBox extends Thread {
+public class JXBox2 extends Thread {
     private Controller xBoxController;
     private Controller[] controllers;
-
-    ControllerListener controllerListener;
 
     private GUI gui;
 
     private boolean controllerFound;
 
-    public JXBox(GUI gui) {
+    public JXBox2(GUI gui) {
         this.gui = gui;
         System.setProperty("net.java.games.input.librarypath",
                 new File("jinput-2.0.9-natives.jar\\net\\java\\games").getAbsolutePath());
@@ -26,9 +23,6 @@ public class JXBox extends Thread {
         controllerFound = false;
     }
 
-    public void addControllerListener(ControllerListener controllerListener){
-        this.controllerListener = controllerListener;
-    }
     /**
      * Check all controllers and find an XBox controller
      */
@@ -105,7 +99,7 @@ public class JXBox extends Thread {
                     e.printStackTrace();
                 }
 
-                //System.out.println("Left: " + left + ", Right: " + right + ", Forward: " + forward + ", Back: " + back);
+                System.out.println("Left: " + left + ", Right: " + right + ", Forward: " + forward + ", Back: " + back);
             }
         }
     }
